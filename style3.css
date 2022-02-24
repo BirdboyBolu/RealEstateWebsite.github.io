@@ -1,0 +1,128 @@
+.review img{
+	float: right;
+	border-radius: 10px;
+	margin-right: 5%;
+	margin-left: 5%;		
+}
+.review h1{
+	font-size: 35px;
+	font-family: 'Roboto', sans-serif;
+	color: orange;
+	margin-top: 2%;
+	margin-left: 1%;
+}
+.review p{
+	margin-left: 2%;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	color: grey;
+	font-weight: 600;
+	line-height: 20px;
+	margin: 10px 20px 20px;
+}
+.review .burtin{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	margin: 25px 25px 25px;
+	border: 2px solid grey;
+	border-radius: 25px;
+	padding: 12px 20px;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	background: orange;
+	position: relative;
+	cursor: pointer;
+}
+.burtin:hover{
+	border: 2px solid grey;
+	background: #e8630a;
+	transition: 1s;
+}
+.review h2{
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	color: orange;
+	margin-top: 1%;
+	margin-left: 1%;
+}
+.review-col{
+	flex-basis: 44%;
+	border-radius: 10px;
+	margin-bottom: 4%;
+	text-align: left;
+	background: #f8b400;
+	padding: 35px;
+	cursor: pointer;
+	display: flex;
+}
+.review-col img{	
+	height: 40px;
+	margin-left: 15px;
+	margin-right: 30px;
+	margin-top: 10px;
+	border-radius: 50%;
+}
+.review-col p{
+	padding: 0;
+}
+
+.review-col p{
+	padding: 0;
+}
+.review-col h3{
+	text-align: left;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	color: ghostwhite;
+}
+
+
+/*footer*/
+
+
+.footer{
+background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+.footer ul li{
+	list-style: none;
+	margin-top: 20px;
+	left: 10%;
+	display: inline-block;
+	padding: 8px 8px;
+	position: relative	
+}
+.footer ul li a{
+	text-decoration: none;
+	color: orange;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;	
+}
+.footer ul li::after{
+	content: '';
+	width: 0;
+	height: 2px;
+	background: grey;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.footer ul li:hover::after{
+	width: 100%;
+}
+.footer .fa{
+	color: orange;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+.footer p{
+	align-items: center;
+	font-size: 10px;
+	font-family: 'Roboto', sans-serif;	
+}
+@media all and (max-width: 1000px) {
+	.footer  ul li{
+		left: 0%;
+	}
+}
+

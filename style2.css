@@ -1,0 +1,107 @@
+.front h1{
+	font-size: 35px;
+	font-family: 'Roboto', sans-serif;
+	color: orange;
+	margin-top: 3%;
+	margin-left: 5%;
+}
+.front p{
+	margin-left: 2%;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	color: grey;
+	font-weight: 600;
+	line-height: 20px;
+	margin: 10px 20px 20px;
+}
+.front img{
+	float: right;
+	border-radius: 15px;
+	margin-right: 10%;
+	width: 650px;
+	height: 450px;
+}
+
+.front2 h2{
+	font-size: 35px;
+	font-family: 'Roboto', sans-serif;
+	color: orange;
+	margin-top: 1%;
+	margin-left: 5%;
+}
+.front2 p{
+	margin-left: 2%;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	color: grey;
+	font-weight: 600;
+	line-height: 20px;
+	margin: 10px 20px 20px;
+	margin-bottom: 55px;
+}
+
+/*footer*/
+
+.footer{
+background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+.footer ul li{
+	list-style: none;
+	margin-top: 20px;
+	left: 10%;
+	display: inline-block;
+	padding: 8px 8px;
+	position: relative	
+}
+.footer ul li a{
+	text-decoration: none;
+	color: orange;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;	
+}
+.footer ul li::after{
+	content: '';
+	width: 0;
+	height: 2px;
+	background: grey;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.footer ul li:hover::after{
+	width: 100%;
+}
+.footer .fa{
+	color: orange;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+.footer p{
+	align-items: center;
+	font-size: 10px;
+	font-family: 'Roboto', sans-serif;	
+}
+
+@media all and (max-width: 951px) {
+	.front h1{
+		font-size: 20px;
+	}
+	.front p{
+		font-size: 15px;
+	}
+	.front2 h2{
+		font-size: 20px;
+	}
+	.front2 p{
+		font-size: 15px;
+	}
+	.front img{
+		width: 300px;
+		height: 300px;
+		display: block;
+		text-align: center;
+	}
+	.footer ul li{
+		left: 0%;
+	}
+}
